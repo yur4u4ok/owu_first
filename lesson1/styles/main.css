@@ -1,0 +1,30 @@
+img {
+    width: 250px;
+}
+p {
+    background: silver;
+    color: blueviolet;
+}
+h1{
+    background: brown;
+    color: darkblue;
+}
+h2{
+    background: lightslategray;
+    color: white;
+}
+.homer{
+    background: #000;
+    color: lightslategray;
+}
+.lisa{
+    background: #000;
+    color: lightslategray;
+}
+.bart{
+    background: #000;
+    color: lightslategray;
+}
+h2:hover{
+    background: orange;
+}
