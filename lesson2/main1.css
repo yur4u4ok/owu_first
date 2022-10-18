@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.main{
+    height: 300px;
+    width: 800px;
+    background: lightslategray;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.block1{
+    box-sizing: border-box;
+    margin: 20px;
+    padding:20px;
+    border: 2px solid black;
+
+
+}
+p{
+    font-size: 20px;
+    text-align: center;
+
+}
+.text{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Bahnschrift;
+    text-align: center;
+    padding-bottom: 15px;
+    color: orange;
+}
+.but{
+    font-size: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+
+}
