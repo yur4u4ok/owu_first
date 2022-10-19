@@ -1,0 +1,54 @@
+.main_box{
+    width: 800px;
+    height: 350px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 200px;
+}
+.box{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    position: relative;
+    justify-content: space-evenly;
+
+}
+p{
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+.text{
+    display: flex;
+    text-align: center;
+    color: orange;
+}
+.load{
+    font-size: 20px;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+.round{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid black;
+    position: relative;
+    bottom: 70px;
+    left: 47px;
+    justify-content: space-evenly;
+    margin-bottom: -40px;
+}
+img{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    padding: 17px;
+}
