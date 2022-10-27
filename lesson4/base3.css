@@ -1,0 +1,44 @@
+.main_div{
+    height: 600px;
+    width: 100%;
+    background: silver;
+}
+.a{
+    width: 100%;
+    height: 100px;
+    background: darkslateblue;
+}
+.submain_div{
+    display: flex;
+}
+.bcdefg{
+    width: 75%;
+    height: 500px;
+    background: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.h{
+    width: 25%;
+    height: 500px;
+    background: cornflowerblue;
+}
+.box{
+    height: 245px;
+    width: 33%;
+    border: 1px solid black;
+    background: darkcyan;
+}
+@media screen and (max-width: 1000px){
+    .submain_div{
+        flex-direction: column;
+    }
+    .bcdefg{
+        width: 100%;
+    }
+    .h{
+        width: 100%;
+        height: 150px;
+    }
+}
